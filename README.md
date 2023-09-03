@@ -104,7 +104,7 @@ https://youtu.be/WW47c-uf
 <img src='./screenshot/prot4.jpg' />
 
 
-## Deployed hedera smart contract
+## Deployed smart contract
 
 1481C175fovRXH6qo1YdJbfVtg3euUsZoV
 
