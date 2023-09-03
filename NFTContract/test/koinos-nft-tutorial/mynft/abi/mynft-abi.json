@@ -1,0 +1,141 @@
+{
+    "methods": {
+        "name": {
+            "argument": "mynft.name_arguments",
+            "return": "mynft.name_result",
+            "description": "returns the name of the NFT collection",
+            "entry_point": 2191741823,
+            "read_only": true
+        },
+        "symbol": {
+            "argument": "mynft.symbol_arguments",
+            "return": "mynft.symbol_result",
+            "description": "returns the symbol of the NFT",
+            "entry_point": 3077209249,
+            "read_only": true
+        },
+        "max_supply": {
+            "argument": "mynft.max_supply_arguments",
+            "return": "mynft.max_supply_result",
+            "description": "returns the maximum number of NFTs",
+            "entry_point": 46564349,
+            "read_only": true
+        },
+        "mint": {
+            "argument": "mynft.mint_arguments",
+            "return": "mynft.mint_result",
+            "description": "mints the NFT to the specified address",
+            "entry_point": 3698268091,
+            "read_only": false
+        }
+    },
+    "types": {
+        "nested": {
+            "mynft": {
+                "nested": {
+                    "name_arguments": {
+                        "fields": {}
+                    },
+                    "name_result": {
+                        "fields": {
+                            "value": {
+                                "type": "string",
+                                "id": 1
+                            }
+                        }
+                    },
+                    "symbol_arguments": {
+                        "fields": {}
+                    },
+                    "symbol_result": {
+                        "fields": {
+                            "value": {
+                                "type": "string",
+                                "id": 1
+                            }
+                        }
+                    },
+                    "max_supply_arguments": {
+                        "fields": {}
+                    },
+                    "max_supply_result": {
+                        "fields": {
+                            "value": {
+                                "type": "uint64",
+                                "id": 1,
+                                "options": {
+                                    "jstype": "JS_STRING"
+                                }
+                            }
+                        }
+                    },
+                    "mint_arguments": {
+                        "fields": {
+                            "to": {
+                                "type": "bytes",
+                                "id": 1,
+                                "options": {
+                                    "(koinos.btype)": "ADDRESS"
+                                }
+                            }
+                        }
+                    },
+                    "mint_result": {
+                        "fields": {}
+                    },
+                    "token_object": {
+                        "fields": {
+                            "owner": {
+                                "type": "bytes",
+                                "id": 1,
+                                "options": {
+                                    "(koinos.btype)": "ADDRESS"
+                                }
+                            }
+                        }
+                    },
+                    "supply_object": {
+                        "fields": {
+                            "value": {
+                                "type": "uint64",
+                                "id": 1,
+                                "options": {
+                                    "jstype": "JS_STRING"
+                                }
+                            }
+                        }
+                    },
+                    "balance_object": {
+                        "fields": {
+                            "value": {
+                                "type": "uint64",
+                                "id": 1,
+                                "options": {
+                                    "jstype": "JS_STRING"
+                                }
+                            }
+                        }
+                    },
+                    "mint_event": {
+                        "fields": {
+                            "to": {
+                                "type": "bytes",
+                                "id": 1,
+                                "options": {
+                                    "(koinos.btype)": "ADDRESS"
+                                }
+                            },
+                            "token_id": {
+                                "type": "bytes",
+                                "id": 2,
+                                "options": {
+                                    "(koinos.btype)": "HEX"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "methods": {
+        "name": {
+            "argument": "mynft.name_arguments",
+            "return": "mynft.name_result",
+            "description": "returns the name of the NFT collection",
+            "entry-point": "0x82a3537f",
+            "read-only": true
+        },
+        "symbol": {
+            "argument": "mynft.symbol_arguments",
+            "return": "mynft.symbol_result",
+            "description": "returns the symbol of the NFT",
+            "entry-point": "0xb76a7ca1",
+            "read-only": true
+        },
+        "max_supply": {
+            "argument": "mynft.max_supply_arguments",
+            "return": "mynft.max_supply_result",
+            "description": "returns the maximum number of NFTs",
+            "entry-point": "0x02c683fd",
+            "read-only": true
+        },
+        "mint": {
+            "argument": "mynft.mint_arguments",
+            "return": "mynft.mint_result",
+            "description": "mints the NFT to the specified address",
+            "entry-point": "0xdc6f17bb",
+            "read-only": false
+        }
+    },
+    "types": "CvkDChphc3NlbWJseS9wcm90by9teW5mdC5wcm90bxIFbXluZnQaFGtvaW5vcy9vcHRpb25zLnByb3RvIhAKDm5hbWVfYXJndW1lbnRzIiMKC25hbWVfcmVzdWx0EhQKBXZhbHVlGAEgASgJUgV2YWx1ZSISChBzeW1ib2xfYXJndW1lbnRzIiUKDXN5bWJvbF9yZXN1bHQSFAoFdmFsdWUYASABKAlSBXZhbHVlIhYKFG1heF9zdXBwbHlfYXJndW1lbnRzIi0KEW1heF9zdXBwbHlfcmVzdWx0EhgKBXZhbHVlGAEgASgEQgIwAVIFdmFsdWUiJgoObWludF9hcmd1bWVudHMSFAoCdG8YASABKAxCBIC1GAZSAnRvIg0KC21pbnRfcmVzdWx0IioKDHRva2VuX29iamVjdBIaCgVvd25lchgBIAEoDEIEgLUYBlIFb3duZXIiKQoNc3VwcGx5X29iamVjdBIYCgV2YWx1ZRgBIAEoBEICMAFSBXZhbHVlIioKDmJhbGFuY2Vfb2JqZWN0EhgKBXZhbHVlGAEgASgEQgIwAVIFdmFsdWUiQwoKbWludF9ldmVudBIUCgJ0bxgBIAEoDEIEgLUYBlICdG8SHwoIdG9rZW5faWQYAiABKAxCBIC1GAJSB3Rva2VuSWRiBnByb3RvMw=="
+}

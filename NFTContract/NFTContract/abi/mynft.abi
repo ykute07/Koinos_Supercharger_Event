@@ -1,0 +1,26 @@
+{
+    "methods": {
+        "name": {
+            "argument": "mynft.name_arguments",
+            "return": "mynft.name_result",
+            "description": "returns the name of the NFT collection",
+            "entry-point": "0x82a3537f",
+            "read-only": true
+        },
+        "symbol": {
+            "argument": "mynft.symbol_arguments",
+            "return": "mynft.symbol_result",
+            "description": "returns the symbol of the NFT",
+            "entry-point": "0xb76a7ca1",
+            "read-only": true
+        },
+        "mint": {
+            "argument": "mynft.mint_arguments",
+            "return": "mynft.mint_result",
+            "description": "Mints a new token",
+            "entry-point": "0xdc6f17bb",
+            "read-only": false
+        }
+    },
+    "types": "CpICChphc3NlbWJseS9wcm90by9teW5mdC5wcm90bxIFbXluZnQaFGtvaW5vcy9vcHRpb25zLnByb3RvIhAKDm5hbWVfYXJndW1lbnRzIiMKC25hbWVfcmVzdWx0EhQKBXZhbHVlGAEgASgJUgV2YWx1ZSISChBzeW1ib2xfYXJndW1lbnRzIiUKDXN5bWJvbF9yZXN1bHQSFAoFdmFsdWUYASABKAlSBXZhbHVlIl0KDm1pbnRfYXJndW1lbnRzEhQKAnRvGAEgASgMQgSAtRgGUgJ0bxI1ChVudW1iZXJfdG9rZW5zX3RvX21pbnQYAiABKARCAjABUhJudW1iZXJUb2tlbnNUb01pbnRiBnByb3RvMw=="
+}

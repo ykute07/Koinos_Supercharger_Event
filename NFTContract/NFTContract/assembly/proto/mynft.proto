@@ -1,0 +1,28 @@
+syntax = "proto3";
+import "koinos/options.proto";
+package mynft;
+
+// @description returns the name of the NFT collection
+// @read-only true
+message name_arguments {
+  
+}
+message name_result {
+  string value = 1;
+}
+
+// @description returns the symbol of the NFT
+// @read-only true
+message symbol_arguments {
+  
+}
+message symbol_result {
+  string value = 1;
+}
+// entrypoints
+// @description Mints a new token
+// @read-only false
+message mint_arguments {
+   bytes to = 1 [(koinos.btype) = ADDRESS];
+   uint64 number_tokens_to_mint = 2 [jstype = JS_STRING];
+}
