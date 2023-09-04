@@ -93,7 +93,7 @@ Players are users who collect NFTs using the MapX app
 
 
 #### URLs
-https://youtu.be/WW47c-uf
+https://youtu.be/E1Rn7FH4Pfw
 
 
 ## How to Install 
